@@ -1,0 +1,44 @@
+.fragment_33552 header {
+  /* Style the header */
+ 
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.fragment_33552{
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.fragment_33552 article {
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+.fragment_33552 section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.fragment_33552 footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+ .fragment_33552 article {
+    width: 100%;
+    height: auto;
+  }
+}
