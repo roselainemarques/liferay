@@ -1,2 +1,2 @@
 # liferay
-códigos para clases liferay
+códigos y recursos para clases liferay
